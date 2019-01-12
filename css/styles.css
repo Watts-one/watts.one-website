@@ -55,12 +55,12 @@ p {
 }
 
 a {
-	color: #ffcc00;
+	color: #fc0;
 	text-decoration: none;
 }
 
 a svg {
-	fill: #fc0
+	fill: #fc0;
 }
 
 .link {
