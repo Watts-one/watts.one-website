@@ -30,7 +30,7 @@ img {
 #header {
 	padding: 30px;
 	font-family: Lato, 'Open Sans', Helvetica, Arial, sans-serif;
-	color: #FFCC00;
+	color: #fff;
 	font-size: 100px;
 	line-height: 100%;
 	font-weight: 100;
@@ -52,11 +52,6 @@ p {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	line-height:130%;
 	}
-	
-/*p a {
-	color: #ffcc00;
-	text-decoration: none;
-}*/
 
 a {
 	color: #ffcc00;
@@ -73,11 +68,6 @@ a {
 	font-size: 24px;
 	color: #FFFFFF;
 }
-
-/*.link a {
-	color: #FFFFFF;	
-	text-decoration: none;
-}*/
 
 .link a * {
 	vertical-align: middle;
