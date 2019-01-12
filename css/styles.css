@@ -94,6 +94,10 @@ p a:hover, .link span:hover, p#email a:hover {
 	text-decoration: underline;
 	}
 	
+a span {
+	margin-left: 10px;
+}
+	
 #description {
 	padding-bottom: 10px;
 }
