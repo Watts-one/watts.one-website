@@ -3,15 +3,27 @@
 	padding: 0;
 }
 
-body {
-	background-image: url(images/on-a-boat.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-color: #000;
+#bg {
+	position:fixed;
+	top:-50%;
+	left:-50%;
+	width:200%;
+	height:200%;
+	z-index: -9999;
 }
-	
+
+#bg img {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	min-width:50%;
+	min-height:50%;
+	border:none;
+}
+
 #header {
 	padding: 30px;
 	font-family: Lato, 'Open Sans', Helvetica, Arial, sans-serif;
@@ -19,7 +31,7 @@ body {
 	font-size: 100px;
 	line-height: 100%;
 	font-weight: 100;
-	}
+}
 
 #content {
 	background:#111;
@@ -28,7 +40,7 @@ body {
 	width:520px;
 	margin:80px 30px;
 	text-align:left;
-	}
+}
 
 p { 
 	padding:0 30px 20px 30px; 
@@ -36,7 +48,7 @@ p {
 	font-size:18px;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	line-height:130%;
-	}
+}
 
 a {
 	color: #ffcc00;
@@ -66,18 +78,9 @@ a svg {
 	padding: 0 0 25px;
 }
 
-p#email {
-	margin: 10px 0;	
-	padding: 0 30px 30px;
-}
-	
-p#email a {
-	font-size: 24px;
-}
-
 p a:hover, .link span:hover, p#email a:hover {
 	text-decoration: underline;
-	}
+}
 	
 a span {
 	margin-left: 10px;
