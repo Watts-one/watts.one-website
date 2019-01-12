@@ -91,10 +91,6 @@ a span {
 }
 
 @media only screen and (max-device-width: 640px) {
-	
-	#bg img {
-		min-height: 60%;
-	}
 
 	#content {
 		width:90%;
