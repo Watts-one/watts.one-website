@@ -3,30 +3,15 @@
 	padding: 0;
 }
 
-#bg {
-	position:fixed;
-	top:-50%;
-	left:-50%;
-	width:200%;
-	height:200%;
-	z-index: -9999;
+body {
+	background-image: url(images/on-a-boat.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #000;
 }
-
-#bg img {
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	margin:auto;
-	min-width:50%;
-	min-height:50%;
-}
-
-img {
-	border:none;
-	}
-					
+	
 #header {
 	padding: 30px;
 	font-family: Lato, 'Open Sans', Helvetica, Arial, sans-serif;
@@ -35,7 +20,7 @@ img {
 	line-height: 100%;
 	font-weight: 100;
 	}
-			
+
 #content {
 	background:#111;
 	background:rgb(0, 100, 177);
@@ -100,32 +85,4 @@ a span {
 	
 #description {
 	padding-bottom: 10px;
-}
-
-@media only screen and (max-device-width: 640px) {
-	
-	#bg img {
-		min-height: 60%;
-	}
-
-	#content {
-		width:90%;
-	}
-
-	#content *{
-		font-size: 1.3em;
-	}
-
-	#header {
-		font-size: 120px;
-	}
-
-	.link img {
-		height: 32px;
-		width: 32px;
-	}
-
-	p#email a {
-	font-size: 48px;
-	}
 }
