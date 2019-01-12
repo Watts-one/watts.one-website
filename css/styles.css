@@ -89,3 +89,22 @@ a span {
 #description {
 	padding-bottom: 10px;
 }
+
+@media only screen and (max-device-width: 640px) {
+	
+	#bg img {
+		min-height: 60%;
+	}
+
+	#content {
+		width:90%;
+	}
+
+	#content *{
+		font-size: 1.3em;
+	}
+
+	#header {
+		font-size: 120px;
+	}
+}
