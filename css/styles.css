@@ -7,6 +7,10 @@ html {
 	padding: 0;
 }
 
+body {
+	font-size: 16px;
+}
+
 #bg {
 	position: fixed;
 	top: -50%;
@@ -32,7 +36,7 @@ html {
 	padding: 30px 30px 0 50px;
 	font-family: Lato, 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #fff;
-	font-size: 100px;
+	font-size: 600%;
 	line-height: 120%;
 	font-weight: 100;
 }
