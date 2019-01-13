@@ -85,7 +85,7 @@ a svg {
 	padding: 0 0 25px;
 }
 
-p a:hover, .link span:hover, p#email a:hover {
+p a:hover {
 	text-decoration: underline;
 }
 	
