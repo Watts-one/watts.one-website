@@ -128,10 +128,10 @@ a {
 	}
 
 	#header {
-		font-size: 700%;
+		font-size: 1000%;
 	}
 	
-	a {
-		
+	.desc-link {
+		font-size: 140%;
 	}
 }
