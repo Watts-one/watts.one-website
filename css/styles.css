@@ -71,7 +71,7 @@ a {
 	border-bottom: rgba(255, 255, 255, 0.4) 1px dotted;
 	outline: none;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 150%;
 	transition: 0.3s;
 }
 
@@ -120,10 +120,14 @@ a {
 	}
 
 	#content *{
-		font-size: 1.3em;
+		font-size: 200%;
 	}
 
 	#header {
-		font-size: 120px;
+		font-size: 700%;
+	}
+	
+	a {
+		
 	}
 }
