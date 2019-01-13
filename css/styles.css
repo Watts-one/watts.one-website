@@ -72,6 +72,7 @@ a {
 	outline: none;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 24px;
+	transition: 0.3s;
 }
 
 .link:hover {
