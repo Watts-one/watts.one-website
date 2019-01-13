@@ -134,4 +134,8 @@ a {
 	.desc-link {
 		font-size: 140%;
 	}
+	
+	.link * {
+		vertical-align: middle;
+	}
 }
