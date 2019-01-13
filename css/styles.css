@@ -8,24 +8,24 @@ html {
 }
 
 #bg {
-	position:fixed;
-	top:-50%;
-	left:-50%;
-	width:200%;
-	height:200%;
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
 	z-index: -9999;
 }
 
 #bg img {
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	margin:auto;
-	min-width:50%;
-	min-height:50%;
-	border:none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+	border: none;
 }
 
 #header {
@@ -38,20 +38,20 @@ html {
 }
 
 #content {
-	background:#111;
-	background:rgb(0, 100, 177);
-	background:rgba(0, 0, 0, 0.4);
-	width:520px;
-	margin:80px 30px;
-	text-align:left;
+	background: #111;
+	background: rgb(0, 100, 177);
+	background: rgba(0, 0, 0, 0.4);
+	width: 520px;
+	margin: 80px 30px;
+	text-align: left;
 }
 
 p { 
-	padding:0 30px 20px 30px; 
-	color:#fff; 
-	font-size:18px;
+	padding: 0 30px 20px 30px; 
+	color: #fff; 
+	font-size: 18px;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	line-height:130%;
+	line-height: 130%;
 }
 
 a {
@@ -59,7 +59,7 @@ a {
 	text-decoration: none;
 }
 
-a svg {
+.link svg {
 	fill: #fc0;
 }
 
@@ -74,11 +74,15 @@ a svg {
 }
 
 .link:hover {
-	background-color: rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
-.link a * {
-	vertical-align: middle;
+.link * {
+	vertical-align: bottom;
+}
+
+.name {
+	margin-left: 10px;
 }
 
 #social {
@@ -88,17 +92,12 @@ a svg {
 p a:hover {
 	text-decoration: underline;
 }
-	
-a span {
-	margin-left: 10px;
-}
-	
+
 #description {
 	padding-bottom: 10px;
 }
 
 @media only screen and (max-device-width: 640px) {
-
 	#content {
 		width:90%;
 	}
