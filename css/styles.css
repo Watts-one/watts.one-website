@@ -91,8 +91,23 @@ a {
 	padding: 0 0 25px;
 }
 
-p a:hover {
-	text-decoration: underline;
+.desc-link {
+	display: inline-block;
+	color: #fc0;
+	text-decoration: none;
+}
+
+.desc-link::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #fc0;
+	transition: width 0.3s;
+}
+
+.desc-link:hover::after {
+	width: 100%;
 }
 
 #description {
