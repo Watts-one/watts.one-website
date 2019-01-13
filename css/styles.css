@@ -53,7 +53,7 @@ body {
 p { 
 	padding: 0 30px 20px 30px; 
 	color: #fff; 
-	font-size: 20px;
+	font-size: 120%;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	line-height: 130%;
 }
@@ -124,7 +124,7 @@ a {
 	}
 
 	#content *{
-		font-size: 200%;
+		font-size: 150%;
 	}
 
 	#header {
